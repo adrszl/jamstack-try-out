@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eleventy",
+    "start-dev": "eleventy --serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adrszl/jamstack-try-out.git"
   },
-  "author": "",
+  "author": "Adrian Szlegel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/adrszl/jamstack-try-out/issues"
