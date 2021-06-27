@@ -2,10 +2,16 @@
 title: Sample Page
 layout: base.njk
 ---
-
+{# https://newsapi.org/ #}
 <div class="container">
     <h1>JAMstack sample</h1>
     <section></section>
+    
+    <ul>
+        {% for article in news.articles %}
+            <li>{ article }</li>
+        {% endfor %}
+    </ul>
 </div>
 
 <script src="/js/main.js"></script>
